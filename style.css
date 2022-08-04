@@ -1,0 +1,97 @@
+body{
+    text-align:center;
+    padding-top:800px;
+    margin:0;
+}
+
+.profile{
+    border-radius:50%;
+    }
+
+  #welcome {
+    width:100%;
+    height:100%;
+    bottom:0;
+    position:absolute;
+    display:table;
+    background:linear-gradient(#3ed69c 0%,#3ed6c7 100% )
+  }
+
+  h1{
+    font-size:40px;
+    font-weight:300;
+    font-family:'Gill Sans',cursive;
+  }
+
+  h2{
+    font-size:30px;
+    font-weight:300;
+    font-family:'Arial Narrow', Arial, sans-serif;
+  }
+
+  #name{
+    font-size:50px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .parallax-inner{
+    display:table-cell;
+    vertical-align:middle;
+  }
+  
+  #bio{
+    font-family:cursive;
+    padding:50px;
+  }
+
+  .line{
+    background-color:black;
+    width:70px;
+    height:6px;
+    margin:8px auto;
+    border-radius:20px;
+  }
+
+  .menu{
+    position:fixed;
+    background-color: rgb(250, 250, 250);
+    width:100%;
+    top:0px;
+    z-index:10;
+    margin-top:0px;
+      }
+
+  .links{
+    font-size:20px;
+    font-family: 'Oswald', sans-serif;
+        color:rgb(25, 21, 233);
+    display:inline;
+    padding-left:33px;
+    padding-right:25px;
+
+  }
+  .links:hover{
+    font-size:25px;
+        text-decoration:underline;
+  }
+
+  #writings a{
+    text-decoration:underline !important;
+    color:rgb(9, 114, 212);
+  }
+
+  a{
+    text-decoration:none;
+  }
+
+  #contacts{
+    background-color:aquamarine;
+      }
+
+#contacts iframe{
+  width:100%;
+}
+
+.contact h3{
+  display:inline;
+  }
